@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Script from 'next/script'
+// import Script from 'next/script'
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -13,15 +13,16 @@ export default function Layout(props){
           <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'></link>
           <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'></link>
 
-          <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css"></link>
-          <link rel="stylesheet" href="inc/animations/css/animate.min.css"></link>
-          <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"></link>
-          <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css"></link>
-          <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css"></link>
+          <link rel="stylesheet" href="/inc/bootstrap/css/bootstrap.min.css"></link>
+          <link rel="stylesheet" href="/inc/animations/css/animate.min.css"></link>
+          <link rel="stylesheet" href="/inc/font-awesome/css/font-awesome.min.css"></link>
+          <link rel="stylesheet" href="/inc/owl-carousel/css/owl.carousel.css"></link>
+          <link rel="stylesheet" href="/inc/owl-carousel/css/owl.theme.css"></link>
 
           <link rel="stylesheet" href="/assets/css/reset.css"></link>
           <link rel="stylesheet" href="/assets/css/mobile.css"></link>
           <link rel="stylesheet" href="/assets/css/style.css"></link>
+
 
           <link rel="stylesheet" href="/assets/theme/cool-gray.css"></link>
 
@@ -43,8 +44,8 @@ export default function Layout(props){
           <Footer/>
           <ScrollToTop/>
         </div>
-        <Script src="/assets/js/theme.js"></Script>
-        <Script src="inc/classie.js"></Script>
+        <script src="/assets/js/theme.js"></script>
+        <script src="inc/classie.js"></script>
       </>
     )
 }

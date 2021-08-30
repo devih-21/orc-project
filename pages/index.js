@@ -6,6 +6,8 @@ import FunFact from '../components/front-ocr/FunFact'
 import Social from '../components/front-ocr/Social'
 import DemoCccd from '../components/front-ocr/DemoCccd'
 
+import Head from "next/head";
+
 export default function Home() {
   return (
     <Layout>
