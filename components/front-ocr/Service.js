@@ -4,9 +4,8 @@ export default function Service(){
                 <div className="page-header-wrapper">
                     <div className="container">
                         <div className="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                            <h2>Services</h2>
+                            <h2>Ứng dụng thực tế</h2>
                             <div className="devider"></div>
-                            <p className="subtitle">what we really know how</p>
                         </div>
                     </div>
                 </div>
@@ -14,44 +13,32 @@ export default function Service(){
                 <div className="rotate-box-2-wrapper">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-3 col-sm-6">
-                                <a href="#" className="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                            <div className="col-md-2 col-sm-6">
+
+                            </div>
+            
+                            <div className="col-md-4 col-sm-6">
+                                <a href="#" className="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
                                     <span className="rotate-box-icon"><i className="fa fa-mobile"></i></span>
                                     <div className="rotate-box-info">
-                                        <h4>App Development</h4>
-                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                        <h4>Xác thực KYC</h4>
+                                        <p>Nhanh chóng và thuận tiện, tiết kiệm nhân lực cũng như tối ưu hóa công đoạn làm việc</p>
                                     </div>
                                 </a>
                             </div>
             
-                            <div className="col-md-3 col-sm-6">
-                                <a href="#" className="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
-                                    <span className="rotate-box-icon"><i className="fa fa-pie-chart"></i></span>
-                                    <div className="rotate-box-info">
-                                        <h4>Ui Design</h4>
-                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
-                                    </div>
-                                </a>
-                            </div>
-            
-                            <div className="col-md-3 col-sm-6">
+                            <div className="col-md-4 col-sm-6">
                                 <a href="#" className="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
                                     <span className="rotate-box-icon"><i className="fa fa-cloud"></i></span>
                                     <div className="rotate-box-info">
-                                        <h4>Cloud Hosting</h4>
-                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                        <h4>Số hóa thông tin cá nhân</h4>
+                                        <p>Xây dựng kho dữ liệu cá nhân khách hàng một cách nhanh chóng, thuận tiện trong việc quản lý và bảo mật thông tin</p>
                                     </div>
                                 </a>
                             </div>
                             
-                            <div className="col-md-3 col-sm-6">
-                                <a href="#" className="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
-                                    <span className="rotate-box-icon"><i className="fa fa-pencil"></i></span>
-                                    <div className="rotate-box-info">
-                                        <h4>Coding Pen</h4>
-                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
-                                    </div>
-                                </a>
+                            <div className="col-md-2 col-sm-6">
+
                             </div>
                             
                         </div> 

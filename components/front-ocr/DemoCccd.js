@@ -19,10 +19,12 @@ export default function DemoCccd(){
 		formData.append('id_image', selectedFile);
 
 		fetch(
-			'http://13.230.161.4:5000/ocr/upload',
+			// '/api/proxy',
+            'http://13.230.161.4:5000/ocr/upload',
 			{
-				method: 'POST',
+				method: 'GET',
 				body: formData,
+                mode: 'no-cors'
 			}
 		)
 			.then((response) => response.json())

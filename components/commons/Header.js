@@ -19,10 +19,10 @@ export default function Header(){
   
               <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul className="nav navbar-nav navbar-right">
-                      <li><a className="page-scroll" href="#text-carousel-intro-section">Home</a></li>
-                      <li><a className="page-scroll" href="#about-section">About</a></li>
+                      <li><a className="page-scroll" href="#text-carousel-intro-section">Trang chủ</a></li>
+                      <li><a className="page-scroll" href="#about-section">Đặc Điểm</a></li>
                       <li><a className="page-scroll" href="#face-analysis-content-section">Demo</a></li>
-                      <li><a className="page-scroll" href="#services-section">Services</a></li>
+                      <li><a className="page-scroll" href="#services-section">Ứng dụng</a></li>
                   </ul>
               </div>
             </div>

@@ -10,8 +10,8 @@ export default function Layout(props){
       <>
         <Head>
           <title>Test</title>        
-          <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'></link>
-          <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'></link>
+          <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'></link>
+          <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'></link>
 
           <link rel="stylesheet" href="/inc/bootstrap/css/bootstrap.min.css"></link>
           <link rel="stylesheet" href="/inc/animations/css/animate.min.css"></link>

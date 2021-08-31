@@ -6,7 +6,7 @@ export default function About(){
                     <div className="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                         <h2>ĐẶC ĐIỂM NỔI BẬT</h2>
                         <div className="devider"></div>
-                        <p className="subtitle">little information</p>
+                        <p className="subtitle">Một vài thông tin về dịch vụ</p>
                     </div>
                 </div>
             </div>
@@ -17,8 +17,8 @@ export default function About(){
                             <a href="#" className="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
                                 <span className="rotate-box-icon"><i className="fa fa-users"></i></span>
                                 <div className="rotate-box-info">
-                                    <h4>Who We Are?</h4>
-                                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    <h4>Các loại giấy tờ hỗ trợ</h4>
+                                    <p>Căn cước công dân, chứng minh thư nhân dân</p>
                                 </div>
                             </a>
                         </div>
@@ -27,8 +27,8 @@ export default function About(){
                             <a href="#" className="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
                                 <span className="rotate-box-icon"><i className="fa fa-diamond"></i></span>
                                 <div className="rotate-box-info">
-                                    <h4>What We Do?</h4>
-                                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    <h4>Tính chính xác</h4>
+                                    <p>Sử dụng công nghệ trí tuệ nhân tạo làm cho thông tin trích xuất có độ chính xác rất cao</p>
                                 </div>
                             </a>
                         </div>
@@ -37,8 +37,8 @@ export default function About(){
                             <a href="#" className="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
                                 <span className="rotate-box-icon"><i className="fa fa-heart"></i></span>
                                 <div className="rotate-box-info">
-                                    <h4>Why We Do It?</h4>
-                                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    <h4>Tính tương thích cao</h4>
+                                    <p>Tương tích với nhiều hệ thống, nhiều nền tảng được hỗ trợ.</p>
                                 </div>
                             </a>
                         </div>
@@ -47,8 +47,8 @@ export default function About(){
                             <a href="#" className="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
                                 <span className="rotate-box-icon"><i className="fa fa-clock-o"></i></span>
                                 <div className="rotate-box-info">
-                                    <h4>Since When?</h4>
-                                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                    <h4>Tối đa hóa thời gia</h4>
+                                    <p>Thời gian trích xuất ngắn dưới 3s, làm việc trong mọi điều kiện.</p>
                                 </div>
                             </a>
                         </div>
