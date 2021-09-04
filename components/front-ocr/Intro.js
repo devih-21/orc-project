@@ -5,7 +5,7 @@ export default function Intro(){
             <div className="container">
                 <div className="content-intro">
                     <div className="text-intro">AI FOR LIFE</div>
-                <a class="btn btn-blank page-scroll" href="#face-analysis-content-section" role="button">Dùng thử</a>
+                <a className="btn btn-blank page-scroll" href="#face-analysis-content-section" role="button">Dùng thử</a>
 
                 </div>
             </div> 

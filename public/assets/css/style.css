@@ -25,11 +25,7 @@ body .body {
   background-color: #fff;
   padding: 50px 0;
 }
-* {
-	border-radius: 0 !important;
-	-webkit-border-radius: 0 !important;
-	-moz-border-radius: 0 !important;
-}
+
 *:focus { 
 	outline: none !important;
 	box-shadow: none !important;
@@ -126,6 +122,7 @@ section {
 .navbar {
 	margin: 0;
 	border: none;
+	z-index: 999999;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -155,16 +152,6 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-}
-
-.navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.png);
-}
-.navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.png);
-}
-.navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.png);
 }
 
 /* Navbar links */
@@ -1147,6 +1134,7 @@ p.subtitle {
 .button-direction{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 #test{
@@ -1172,4 +1160,35 @@ p.subtitle {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.group-input-img{
+	padding: 10px 20px;
+}
+
+.idcard-field{
+	display: inline-block;
+    font-weight: 700;
+	width: 150px;
+    margin: 2px 0;
+}
+
+.idcard-value{
+	width: 270px;
+}
+
+#face-analysis-content-section{
+	height: 1200px;
+}
+
+.wrap-infor{
+	margin-top: 20px;
+	font-size: 18px;
+	width: 450px;
+}
+
+.line-info{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }

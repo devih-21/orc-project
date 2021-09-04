@@ -9,7 +9,7 @@ export default function Layout(props){
     return(
       <>
         <Head>
-          <title>Test</title>        
+          <title>OCR | eKYC</title>        
           <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'></link>
           <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'></link>
 
